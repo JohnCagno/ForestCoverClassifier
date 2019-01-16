@@ -1,6 +1,8 @@
-# ForestCoverClassifier
+# Forest Cover Classifier
 
-#  Feature Overview
+This notebook performs EDA, feature generation, and creates a model that predicts what type of trees grow in an area based on the surrounding characteristics.
+
+#  Features
 __Elevation__ - Elevation in meters<br>
 __Aspect__ - Aspect in degrees azimuth<br>
 __Slope__ - Slope in degrees<br>
@@ -14,3 +16,6 @@ __Horizontal_Distance_To_Fire_Points__ - Horz Dist to nearest wildfire ignition 
 __Wilderness_Area__ (4 binary columns, 0 = absence or 1 = presence) - Wilderness area designation<br>
 __Soil_Type__ (40 binary columns, 0 = absence or 1 = presence) - Soil Type designation<br>
 __Cover_Type__ (7 types, integers 1 to 7) - Forest Cover Type designation<br>
+
+# Model Used: XGB
+# Accuracy: 77.57%
